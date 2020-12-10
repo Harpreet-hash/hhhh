@@ -14,6 +14,7 @@ function setup(){
     var canvas = createCanvas(1200,400);
     engine = Engine.create();
     world = engine.world;
+    platform=new Ground(600,600,50,50)
 
     
     ground = new Ground(600,height,1200,20)
